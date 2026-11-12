@@ -1,27 +1,3 @@
----
-title: "istiquritconsultant.com Re-Launch: A Build Log for a Hand-Coded PHP Tech Diary"
-date: 2026-10-28
-tags: [build-log, php, self-hosting, dev-blog, opencode, markdown]
-platform: "Github markdown blog"
-meta_title: "istiquritconsultant.com Re-Launch: Inside the Build"
-meta_description: "istiquritconsultant.com Re-Launch ships a hand-coded PHP tech diary, version-controlled, with Markdown content and nine three.js mini-games."
-h1: "istiquritconsultant.com Re-Launch: A Build Log for a Hand-Coded PHP Tech Diary"
-tldr: "istiquritconsultant.com Re-Launch turns a retired consulting domain into a version-controlled PHP tech diary with Markdown posts, six categories, and nine three.js mini-games — no sales pitch, just build notes."
-slug: "istiquritconsultant-com-relaunch-build-log"
-keywords:
-  - istiquritconsultant.com Re-Launch
-  - tech diary
-  - personal blog relaunch
-  - hand-coded PHP blog
-  - Markdown-based content
-  - self-hosting blog
-  - AI Windows Linux notes
-  - Remote SEO Consultant
-  - OpenCode bug fix
-  - build-in-public
-word_count: 1430
----
-
 # istiquritconsultant.com Re-Launch: A Build Log for a Hand-Coded PHP Tech Diary
 
 ## TL;DR
@@ -32,19 +8,15 @@ The **istiquritconsultant.com Re-Launch** is live as of August 24, 2026, and if 
 
 This is a build-log write-up: what shipped, why, and how the stack is put together, since that's the angle this platform's readers actually care about.
 
-## Keyword Strategy
 
-Primary keyword: **istiquritconsultant.com Re-Launch**
 
-Secondary / NLP / LSI keywords used throughout: tech diary, personal blog relaunch, hand-coded PHP blog, Markdown-based content, self-hosting blog, AI Windows Linux notes, Remote SEO Consultant, istiquritconsultant.com, OpenCode bug fix, build-in-public, version-controlled content.
-
-## 1. Why the Relaunch Happened
+## Why the Relaunch Happened
 
 The old brand name, "Istiqur IT Consultant," described a person, not a problem. Nobody searches for a person's name when they're stuck debugging a build error at 1 a.m. — they search for the error. That mismatch pushed the business side to rebrand to Remote SEO Consultant earlier in 2026, which left the original domain, istiquritconsultant.com, without a commercial job to do.
 
 Instead of parking it or 301-redirecting it into oblivion, the decision was to repurpose it as a dedicated reading space — a tech diary with its own identity, separate brand system, and zero commercial pressure. That repurposing went live on August 24, 2026, as the istiquritconsultant.com Re-Launch.
 
-## 2. What's Live Now: Categories and the First Post
+## What's Live Now: Categories and the First Post
 
 The site launched with six content categories, each with its own landing page and its own themed mini-game:
 
@@ -55,9 +27,9 @@ The site launched with six content categories, each with its own landing page an
 - **Self-Hosting**
 - **Tech Journey** — the long arc of how a pharmacist became a technologist
 
-The first published post is **"OpenCode Not Working: Why Both CLI & Desktop Died."** It's a real incident writeup: both the OpenCode CLI and the OpenCode Desktop app refused to start after five custom subagents were added. The post walks through the exact error text, isolates the root cause down to a single misconfigured field, and documents how both the CLI and the desktop app were fixed and independently verified. If you've ever lost an hour to a tooling crash that turned out to be one field in a config file, this is the kind of post the whole site is built around.
+The first published post is **"OpenCode Not Working: Why Both CLI & Desktop Died"** (https://istiquritconsultant.com/workflow-optimization-blogs/opencode-not-working-windows-11/). It's a real incident writeup: both the OpenCode CLI and the OpenCode Desktop app refused to start after five custom subagents were added. The post walks through the exact error text, isolates the root cause down to a single misconfigured field, and documents how both the CLI and the desktop app were fixed and independently verified. If you've ever lost an hour to a tooling crash that turned out to be one field in a config file, this is the kind of post the whole site is built around.
 
-## 3. The Brand and the Build
+## The Brand and the Build
 
 Since this platform's readers are repo-and-code-literate, here's the actual stack rather than a marketing gloss:
 
@@ -73,15 +45,15 @@ The brand system is deliberately separate from Remote SEO Consultant's own viole
 
 One more build detail worth flagging for this audience: there are nine playable mini-games built with three.js scattered across the site. Six are themed to the six content categories — Signal Runner for AI, Workflow Sprint for Workflow Optimization, System Defender for Windows, Terminal Chase for Linux, Uptime Runner for Self-Hosting, and Duck Hunt for Tech Journey. The remaining three live outside the category pages: Breakout on the homepage, Journey Snake on the About page, Catch the Signal on the Contact page, and there's a bonus game embedded directly on the OpenCode post itself.
 
-## 4. Explicitly Not a Sales Funnel
+## Explicitly Not a Sales Funnel
 
 This matters enough that it's stated directly on the homepage: "no pitch inside the posts." The posts aren't lead magnets. There's no CTA stapled to the bottom of every article pushing a service. The commercial SEO, go-to-market, and web-dev consulting work stays entirely on remoteseoconsultant.com, and it's referenced exactly once — from the About page — as a separate, clearly labeled paid engagement. Everywhere else, it's just the diary.
 
-## 5. The Newsletter Proof Point
+## The Newsletter Proof Point
 
 As of the relaunch, the newsletter sits at 5,078+ subscribers. It's one post per send — no digest bundling, no batching multiple posts into a weekly roundup — and unsubscribing is a single click. Subscriber data is never sold or rented. For a tech-diary format, that subscriber count is a reasonable proxy for "people actually want the unfiltered build notes," which is the whole premise of the site.
 
-## 6. How It Connects to Remote SEO Consultant
+## How It Connects to Remote SEO Consultant
 
 The through-line is the author, not the brand. Md. Istiqur Rahman runs Remote SEO Consultant commercially and writes istiquritconsultant.com personally. The two are kept visually and functionally separate — different domains, different color systems, different purposes — but they're the same person applying the same build-in-public habit that shows up in client work: document the problem, document the exact fix, make it verifiable.
 
